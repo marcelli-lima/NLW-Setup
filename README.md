@@ -72,4 +72,4 @@ $ npm install
 
 # Executar o projeto
 $ npx expo start
-
+```
