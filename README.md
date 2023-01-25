@@ -34,4 +34,42 @@
        
  <img  align="center" alt="Celi-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" /> NodeJS
           
-          
+      
+&nbsp;
+<a id="-instalação"></a>
+
+## ⚙️ Instalações
+#### Web
+
+```bash
+# Instalar dependencias
+$ cd web
+$ npm install
+
+# Executar o projeto
+$ npm run dev
+```
+
+#### Server
+
+```bash
+# Instalar dependencias
+$ cd server
+$ npm install
+
+# Executar o projeto
+$ npx prisma migrate deploy
+$ npm run dev
+$ npx prisma studio
+```
+
+#### Mobile
+
+```bash
+# Instalar dependencias
+$ cd mobile
+$ npm install
+
+# Executar o projeto
+$ npx expo start
+
